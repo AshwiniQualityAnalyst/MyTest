@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="methods">
+  <test thread-count="2" name="Regression 1(failed)" parallel="methods">
+    <classes>
+      <class name="ObjectRepository.AllTests">
+        <methods>
+          <include name="TearDownTest"/>
+          <include name="SetUpTest"/>
+          <include name="LastE2E"/>
+          <include name="SecondE2E"/>
+        </methods>
+      </class> <!-- ObjectRepository.AllTests -->
+    </classes>
+  </test> <!-- Regression 1(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="114089" started-at="2018-09-30T14:44:22Z" finished-at="2018-09-30T14:46:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="114089" started-at="2018-09-30T14:44:22Z" finished-at="2018-09-30T14:46:16Z">
+      <class name="ObjectRepository.AllTests">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="SetUpTest" is-config="true" duration-ms="24889" started-at="2018-09-30T14:44:22Z" finished-at="2018-09-30T14:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpTest -->
+        <test-method status="PASS" signature="FirstE2E()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="FirstE2E" duration-ms="3144" started-at="2018-09-30T14:44:46Z" description="Check information" finished-at="2018-09-30T14:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstE2E -->
+        <test-method status="PASS" signature="TearDownTest()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="TearDownTest" is-config="true" duration-ms="707" started-at="2018-09-30T14:44:50Z" finished-at="2018-09-30T14:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="SetUpTest" is-config="true" duration-ms="19885" started-at="2018-09-30T14:44:50Z" finished-at="2018-09-30T14:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpTest -->
+        <test-method status="PASS" signature="SecondE2E()[pri:1, instance:ObjectRepository.AllTests@3532ec19]" name="SecondE2E" duration-ms="9575" started-at="2018-09-30T14:45:10Z" description="Verifies that website suggests city is Not found" finished-at="2018-09-30T14:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondE2E -->
+        <test-method status="PASS" signature="TearDownTest()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="TearDownTest" is-config="true" duration-ms="916" started-at="2018-09-30T14:45:20Z" finished-at="2018-09-30T14:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="SetUpTest" is-config="true" duration-ms="16717" started-at="2018-09-30T14:45:21Z" finished-at="2018-09-30T14:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpTest -->
+        <test-method status="PASS" signature="LastE2E()[pri:2, instance:ObjectRepository.AllTests@3532ec19]" name="LastE2E" duration-ms="9617" started-at="2018-09-30T14:45:37Z" description="Verifies that website successfully returns weather details for the city." finished-at="2018-09-30T14:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastE2E -->
+        <test-method status="PASS" signature="TearDownTest()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="TearDownTest" is-config="true" duration-ms="749" started-at="2018-09-30T14:45:47Z" finished-at="2018-09-30T14:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="SetUpTest" is-config="true" duration-ms="14464" started-at="2018-09-30T14:45:48Z" finished-at="2018-09-30T14:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpTest -->
+        <test-method status="PASS" signature="AdditionalTest()[pri:3, instance:ObjectRepository.AllTests@3532ec19]" name="AdditionalTest" duration-ms="12526" started-at="2018-09-30T14:46:02Z" description="Temperature should be switchable between Fahrenheit and Celsius." finished-at="2018-09-30T14:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdditionalTest -->
+        <test-method status="PASS" signature="TearDownTest()[pri:0, instance:ObjectRepository.AllTests@3532ec19]" name="TearDownTest" is-config="true" duration-ms="854" started-at="2018-09-30T14:46:15Z" finished-at="2018-09-30T14:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+      </class> <!-- ObjectRepository.AllTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
