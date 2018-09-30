@@ -12,7 +12,7 @@
 
 ## Running your tests
 
-- To run a single test, run `mvn test -P run`
+- To run test, run `mvn test -P run`
 - This project easily can be integrate on JENKINS server as well and can be run anytime
 
 
